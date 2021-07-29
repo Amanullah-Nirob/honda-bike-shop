@@ -209,9 +209,13 @@ background-color:#00b7ff98;
 }
 /* happy end */
 
-/* progress start */
+/* service start */
+.service{
+padding: 80px 0;
+
+}
 .progress{
-    margin-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .progress-bar {
@@ -257,7 +261,7 @@ background-color:#00b7ff98;
     font-size: 14px;
     color: #3333339e;
 }
-/* progress end */
+/* service end */
 
 /* Frequently start */
 .Frequently{
