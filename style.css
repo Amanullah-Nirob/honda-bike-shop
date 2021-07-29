@@ -209,6 +209,56 @@ background-color:#00b7ff98;
 }
 /* happy end */
 
+/* progress start */
+.progress{
+    margin-bottom: 50px;
+}
+
+.progress-bar {
+    width: 0;
+    animation: progress 1.5s ease-in-out infinite;
+    background-color:#4668a2 !important;
+ 
+    
+}
+.progress-bar .titles {
+    color: #f3f5fa;
+    font-size: 15px;
+    opacity: 0;
+    animation: show 0.35s infinite ease-in-out 0.5s;
+}
+@keyframes progress {
+    from {
+        width: 0;
+   }
+    to {
+        width: 100%;
+   }
+}
+@keyframes show {
+    from {
+        opacity: 0;
+   }
+    to {
+        opacity: 1;
+   }
+}
+
+
+.progress-bars{
+    padding: 60px 0;
+}
+.prog-title{
+    color:#37517e;
+    font-weight: 500;
+}
+
+.prog-text {
+    font-size: 14px;
+    color: #3333339e;
+}
+/* progress end */
+
 /* Frequently start */
 .Frequently{
     padding: 85px 0;
