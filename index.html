@@ -84,10 +84,43 @@
               <p class="mb-4">Amet minim mollit non deserunt ullamco est sit aliqua 
               dolor do amet sint. Velit officia consequat duis enim velit 
                 mollit. Exercitation veniam consequat sunt nostrud amet</p>
-               <div class="ms-lg-0 ms-md-5 ms-5"> <button class="btn me-5 rounded-pill text-white " type="submit">get started</button></div>
+               <div class="ms-lg-0 ms-md-5 ms-5"> <button class="btn me-5 rounded-pill text-white"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" type="submit">login now</button></div>
             </div>
-
-   <div class="col-lg-6 col-md-12 col-12 text-end"   data-aos="zoom-in"  data-aos-duration="1000" data-aos-easing="ease-in-out"data-aos-delay="200">
+<!-- modal start -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark text-uppercase" id="staticBackdropLabel">ligin</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-dark">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-dark">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label text-dark" for="exampleCheck1">remembar me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal end -->
+<div class="col-lg-6 col-md-12 col-12 text-end"   data-aos="zoom-in"  data-aos-duration="1000" data-aos-easing="ease-in-out"data-aos-delay="200">
        <img src="img/images/header-bike.png" alt="" class="img-fluid">
    </div>
 </div>
