@@ -5,14 +5,57 @@
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
 }
+ 
+/* all section title start */
+
+.title{
+    margin-bottom: 55px;
+}
+.title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    color: #0d0925;
+}
+.title h1 span{
+    color: #fa804c;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.title h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #00b7ff;
+}
+.title h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color:#00b7ff;
+  }
+
+/* all section title start */
 
 /* navbar start */
-
 .navbar .navbar-brand{
     font-size: 30px;
     font-weight: 600;
 }
-
 .navbar .navbar-brand span{
     color:#00b7ff98;
 }
@@ -73,7 +116,7 @@ background-color:#00b7ff98;
     text-transform: capitalize;
    
     
-    }
+}
     
 .home button:hover{
 background-color:#00b7ff98;
@@ -95,19 +138,6 @@ background-color:#00b7ff98;
 .fetured{
     padding: 80px 0;
 }
-.title{
-    margin-bottom: 60px;
-}
-.title h1{
-    font-size: 45px;
-    font-weight: 700;
-    color: #0d0925;
-}
-.title p{
-    font-size: 19px;
-color: #e76f21;
-}
-
 #grayscale-img img {
     transition: all 0.2s;
    transition: all 0.2s;
@@ -128,11 +158,7 @@ color: #e76f21;
     transform: scale(1.1);
     transform: scale(1.1);
   }
-
-
-
-
-             /* futured end */
+            /* futured end */
              /* latest start */
 #latest {
     padding: 80px 0;
@@ -150,32 +176,21 @@ color: #e76f21;
 }
 #Money{
     color: #fa804c;
- 
-}
-
- /* latest end */
-
+ }
+/* latest end */
 
 /* happy start */
 .happy{
     padding: 83px 0;
 }
-
-
-.happy-title h1{
-    font-size: 40px;
-    font-weight: 700;
-    padding-bottom: 45px;
-    color: #0d0925;
-}
-.happy-title h1 span{
-    color: #fa804c;
-  
-}
 #happy-card{
     padding: 25px 63px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: transform ease-in-out 0.5s;
 }
-
+#happy-card:hover{
+    transform: scale(1) translateY(-8px);
+}
 #happy-card img{
     width: 177px;
     margin: auto;
@@ -200,17 +215,6 @@ color: #e76f21;
 .Frequently{
     padding: 85px 0;
     background-color: #f3f5fa;
-}
-
-.Frequently-title h1{
-    font-size: 40px;
-    font-weight: 700;
-    padding-bottom: 60px;
-    color: #0d0925;
-}
-.Frequently-title h1 span{
-    color: #fa804c;
-  
 }
 
 .Frequently img{
@@ -241,44 +245,6 @@ color: #e76f21;
 section.contact {
     padding: 80px 0;
 }
-
-.contact-title h1 {
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 5px;
-    position: relative;
-    font-weight: 600;
-    font-family: 'Jost', sans-serif;
-    font-size: 30px;
-    color: #0d0925;
-}
-.contact-title h1 span{
-    color: #fa804c;
-    font-size: 35px;
-}
-.contact-title h1:before {
-    width: 28px;
-    height: 5px;
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: 3px;
-    left: 50%;
-    margin-left: -14px;
-    background-color: #00b7ff;
-}
-  .contact-title h1:after {
-    width: 100px;
-    height: 1px;
-    display: block;
-    content: "";
-    position: relative;
-    margin-top: 25px;
-    left: 50%;
-    margin-left: -50px;
-    background-color:#00b7ff;
-  }
-
 #location-box h5{
     color: #04378a;
     font-weight: 700;
@@ -326,6 +292,8 @@ form.form label {
     margin-top: 33px;
     border: 1px solid #00b7ff;
     outline: none;
+    border-radius: 6px;
+    text-transform: capitalize;
 }
   
 
