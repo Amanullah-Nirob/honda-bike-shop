@@ -196,9 +196,6 @@ color: #e76f21;
 }
 /* happy end */
 
-
-
-
 /* Frequently start */
 .Frequently{
     padding: 85px 0;
@@ -236,11 +233,101 @@ color: #e76f21;
     color: #00b7ff;
     font-weight: 600;
 }
+/* Frequently end */
 
 
 
+/* contact start */
+section.contact {
+    padding: 80px 0;
+}
 
+.contact-title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    color: #0d0925;
+}
+.contact-title h1 span{
+    color: #fa804c;
+    font-size: 35px;
+}
+.contact-title h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #00b7ff;
+}
+  .contact-title h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color:#00b7ff;
+  }
 
+#location-box h5{
+    color: #04378a;
+    font-weight: 700;
+    
+}
+#location-box p{
+    color: #6597ee;
+    
+}
+  
+
+div#address i {
+    font-size: 20px;
+    background-color: #31a9ea2f;
+    padding: 11px;
+    border-radius: 23px;
+    margin-right: 16px;
+    color:#00b7ff;
+}
+  
+div#address {
+    margin-bottom: 15px;
+}
+  
+  
+.form {
+    padding: 30px;
+     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+     border-top: 3px solid #00b7ff;
+     border-bottom: 3px solid #00b7ff;
+  
+}
+form.form label {
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+  
+.form-button{
+    margin: auto;
+    display: block;
+    padding: 12px 48px;
+    background-color:#00b7ff;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 33px;
+    border: 1px solid #00b7ff;
+    outline: none;
+}
+  
 
 
 
