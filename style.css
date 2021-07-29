@@ -78,17 +78,17 @@ background-color:#00b7ff98;
 .home button:hover{
 background-color:#00b7ff98;
 }
-    
 /* home section end */
+
+
 
 /* clints start */
 .clints{
     padding: 2rem 0;
     background-color: #f3f5fa;
-
-   
 }
 /* clints end */
+
 
 
 /* futured start */
@@ -101,6 +101,7 @@ background-color:#00b7ff98;
 .title h1{
     font-size: 45px;
     font-weight: 700;
+    color: #0d0925;
 }
 .title p{
     font-size: 19px;
@@ -164,7 +165,8 @@ color: #e76f21;
 .happy-title h1{
     font-size: 40px;
     font-weight: 700;
-    padding-bottom: 45px
+    padding-bottom: 45px;
+    color: #0d0925;
 }
 .happy-title h1 span{
     color: #fa804c;
@@ -192,14 +194,48 @@ color: #e76f21;
     font-size: 15px;
     font-weight: 700;
 }
-
 /* happy end */
 
 
 
 
+/* Frequently start */
+.Frequently{
+    padding: 85px 0;
+    background-color: #f3f5fa;
+}
 
+.Frequently-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 60px;
+    color: #0d0925;
+}
+.Frequently-title h1 span{
+    color: #fa804c;
+  
+}
 
+.Frequently img{
+    width: 90%
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-color:#00b7ff98 ;
+    padding: 11px 5px;
+}
+
+.accordion-item button span {
+    color:#fa804c;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 13px;
+}
+.accordion-item button{
+    line-height: 21px;
+    color: #00b7ff;
+    font-weight: 600;
+}
 
 
 
