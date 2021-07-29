@@ -131,7 +131,8 @@ color: #e76f21;
 
 
 
-/* futured end */
+             /* futured end */
+             /* latest start */
 #latest {
     padding: 80px 0;
 }
@@ -150,3 +151,68 @@ color: #e76f21;
     color: #fa804c;
  
 }
+
+ /* latest end */
+
+
+/* happy start */
+.happy{
+    padding: 83px 0;
+}
+
+
+.happy-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 45px
+}
+.happy-title h1 span{
+    color: #fa804c;
+  
+}
+#happy-card{
+    padding: 25px 63px;
+}
+
+#happy-card img{
+    width: 177px;
+    margin: auto;
+}
+.star i {
+    font-size: 16px;
+    color: #fa804c;
+    margin-right: 6px;
+}
+#card-last-title1{
+    font-size: 18px;
+    color: #00b7ff98;
+    font-weight: 700;
+}
+#card-last-title2{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* happy end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
